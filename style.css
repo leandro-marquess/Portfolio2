@@ -149,6 +149,7 @@ ul {
   padding-right: 20px;
 }
 
+
 .intro__img {
   max-width: 500px;
   width: 100%;
@@ -169,6 +170,11 @@ ul {
 }
 
 .intro__title span {
+  color: var(--primary-color);
+  transition: .3s;
+}
+
+.intro__title2 span {
   color: var(--primary-color);
   transition: .3s;
 }
@@ -386,6 +392,10 @@ body.is-black {
   }
   .intro__title {
     font-size: 32px;
+    text-align: center;
+  }
+  .intro__title2 {
+    font-size: 24px;
     text-align: center;
   }
   .intro__position {
